@@ -1,0 +1,12 @@
+<li >
+  <div class="habitCard">
+    <h3 class="habitCard__title">
+      {{habit.title}}
+
+    </h3>
+    <div class="habitCard__buttons" >
+      <app-button *ngFor="let day of days, let index = index " [day]="day"  (click)="checkCompleted(index)"></app-button>
+    </div>
+    <app-habit-progress-bar></app-habit-progress-bar>
+  </div>
+</li>

@@ -1,0 +1,17 @@
+li{
+  margin: 0.5rem;
+  border:1px solid #496a65;
+}
+.habitCard{
+  width: 80vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+}
+.habitCard__title{
+  font-weight: 600;
+  text-align: left;
+  padding: 1rem;
+  text-transform: capitalize;
+}

@@ -1,3 +1,13 @@
 <main class="main">
+  <form class="habit-input">
+  <mat-form-field class="example-full-width">
+    <mat-label>Create yout habit</mat-label>
+    <input matInput #message maxlength="256" placeholder="Ex. running 2 times a week...">
+  </mat-form-field>
+</form>
+<app-habit-progress-bar></app-habit-progress-bar>
+<section class="habit-list">
+  <app-habit-list></app-habit-list>
+</section>
 
-</main>
+</main> 

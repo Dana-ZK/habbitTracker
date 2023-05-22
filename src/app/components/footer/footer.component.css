@@ -4,5 +4,16 @@
   align-items: center;
   justify-content: space-around;
   bottom: 0;
-  position: fixed;
+  position: sticky;
+}
+.footer-articals{
+  display: flex;
+  flex-direction: column;
+  text-decoration: none;
+}
+.footer-articals a{
+  text-decoration: none;
+  padding: 1rem;
+  margin: 0.2rem;
+  border: 1px solid #496a65;
 }
